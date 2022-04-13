@@ -13,9 +13,7 @@ function miniMaxSum(arr) {
     let maxSum = 0;
     for (let i = 0; i < arr.length; i++) {
         sum = arr[i] + sum;
-        console.log(arr[i])
     }
-    console.log(sum)
     let minSum = sum;
     const arrsum = sum;
     for (const num of arr) {
